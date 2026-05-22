@@ -1,5 +1,5 @@
 import "dotenv/config"
-import { BeforeAI } from "./src"
+import { BeforeAI } from "../src"
 
 const ai = new BeforeAI({
   apiKey: process.env.OPENROUTER_API_KEY!,
